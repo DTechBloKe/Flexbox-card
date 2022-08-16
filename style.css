@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+$phone:480px;
+
+body{
+    background-image:url(pexels-jess-bailey-designs-876467.jp);
+    background-color:rgb(246, 235, 235);
+    background-size: cover;
+    
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    height: 100vh;
+
+}
+.box_right{
+    height: 400px;
+    width: 250px;
+    border: 2px solid;
+    border-radius: 6px;
+    line-height:;
+    background-color:darkkhaki;
+}
+.box_right>h3{
+margin: 20px;
+}
+.box_right>h1{
+    margin: 20px;
+    }
+    .box_right>p{
+        margin: 20px;
+        }
+.box_left {
+  border-radius: 6px; 
+  background-image: url(image-product-desktop.jpg); 
+  height: 400px;
+  width: 250px;
+  background-position: center;
+  background-size: cover;
+}
+
+.price{
+    display: flex;
+    margin: 20px;
+    color:seagreen ;
+
+}
+.price>h2{
+    margin-right: 5px;
+    font-weight: bolder;
+}
+price
+.price>h4{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+button{
+    background-color: seagreen;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 20px;
+    position: relative;
+    top: -25px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgb(2, 47, 23);
+}
+
+@media all and (max-width:480px){
+    .container{
+        background-color: blue;
+        display: block;
+    }
+    .box_right{
+        width: 350px;
+        padding: 30px;
+        margin: 30px;
+    }
+}
+    
